@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>gr5</title>
+		<style>
+			button
+			{
+				font-style: monospace;
+				font-size: 35pt;
+				height: 200px;
+				width: 200px;
+				border-style: none;
+				background-color: orange;
+				color: white;
+				text-align: center;
+			}
+			button:hover
+			{
+				animation: play 5s linear 0s 1 normal;
+			}
+			@keyframes play
+			{
+				0% {transform: rotate(0deg);}
+				100% {transform: rotate(180deg);}
+			}
+		</style>
+	</head>
+	<body>
+		<button>Hello World!</button>
+	</body>
+</html>
